@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ShipCard = ({ ship }) => {
   return (  
-    <h3>ship</h3>
+    <Link to={'/ship'} className="shipCard">{ship.name}</Link>
   )
 }
 

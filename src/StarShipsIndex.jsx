@@ -19,12 +19,14 @@ const StarShipsIndex = () => {
   
   return (  
     <>
-      <h1>this is the starshipsindex</h1>
+      <h1>So Many Ships!</h1>
       {shipList.length ?
       <>
+      <div className="shipContainer">
       {shipList.map((ship, idx) =>
-      <Link to={'/ship'} key={idx}>{ship.name}</Link>
+        <ShipCard key={idx} ship={ship}/>
       )}
+      </div>
       </>
       :
       <>

@@ -2,37 +2,37 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: lightgray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.shipCard {
+  height: 200px;
+  width: 400px;
+  background-color: teal;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
+}
+
+.shipCard:hover {
+  background-color: white;
+}
+
+a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: teal;
 }

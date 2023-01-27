@@ -6,7 +6,6 @@ import StarShipsIndex from './StarShipsIndex'
 function App() {
   return (
     <>
-    <Header />
     <Routes>
       <Route path='/' element={<StarShipsIndex />}/>
     </Routes>
