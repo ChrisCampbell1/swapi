@@ -6,6 +6,10 @@ body {
   background-color: lightgray;
 }
 
+h1 {
+  text-align: center;
+}
+
 .shipContainer {
   display: flex;
   flex-wrap: wrap;
