@@ -40,3 +40,20 @@ a {
 a:hover {
   color: teal;
 }
+
+.shipDetailCard {
+  height: 200px;
+  width: 400px;
+  background-color: teal;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.shipDetailCard a:hover {
+  color: white;
+  text-decoration: underline;
+}
